@@ -25,3 +25,24 @@ function loginUserMessage(username='sam'){
 }
 
 console.log(loginUserMessage('arnav'))
+
+function calculateCartPrice(val1,val2,...num1){
+    return num1
+}
+
+console.log(calculateCartPrice(100,200,300,400,500));
+
+const user={
+    username:'hanu',
+    price:'199'
+}
+
+function handleObject(anyobject){
+    return (`The username is ${anyobject.username} and the price is ${anyobject.price}`)
+}
+
+console.log((handleObject (user)))
+console.log(handleObject({
+    username:'abc',
+    price:'11'
+}))
