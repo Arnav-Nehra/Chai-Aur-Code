@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+   <nav>
+    <a href="./" aria-current="page">Home</a>
+    <a href="https://www.youtube.com/watch?v=EGqHVjU-fas&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=37">youtube</a>
+   </nav>
+   <div id="wrapper">
+    <h1>Number guessing game</h1>
+    <p>Try and guess a random number between 1 and 100</p>
+    <p>You have 10 attempts to guess the number right</p>
+   </br>
+        <br class="form">
+            <label for="guess-field" id="guess">Guess a number</label>
+            <input type="text" id="guess-field" class="guess-field"/>
+            <input type="submit" id="subt" value="Submit guess" class="guess-submmit"/>
+        </form>
+
+        <div class="resultparas">
+            <p>Previous Guesses:<span class="guesses"></span></p>
+            <p>Guesses Remaining:<span class="lastresult">10</span></p>
+            <p class="loworHi"></p>
+        </div>
+   </div>
+   <script src="1.js"></script>
+</body>
+</html>
